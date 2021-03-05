@@ -1,7 +1,7 @@
 
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 os.system('rm -rf .txt')
-for n in range(500000):
+for n in range(50000):
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
     print nmbr
@@ -108,7 +108,7 @@ ____________________________________"""
 logo2 = """\033[91m ________  ______   _____        
 
 
-916 free 
+hama free 
 
 
 _______________________________________"""
@@ -118,9 +118,9 @@ os.system('clear')
 print logo2
 loop = 'true'
 while loop == 'true':
-    username = raw_input('\x1b[1;97m\xe2\x9e\xa3 Username halo : ')
+    username = raw_input('\x1b[1;97m\xe2\x9e\xa3 Username ara : ')
     if username == CorrectUsername:
-        password = raw_input('\x1b[1;97m\xe2\x9e\xa3 Password 916 : ')
+        password = raw_input('\x1b[1;97m\xe2\x9e\xa3 Password hama : ')
         if password == CorrectPassword:
             print '\x1b[1;92m[\xe2\x9c\x93] Logged in successfully as' + username
             time.sleep(0.5)
